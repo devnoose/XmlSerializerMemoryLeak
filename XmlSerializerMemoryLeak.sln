@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerMemoryLeak", "XmlSerializerMemoryLeak\XmlSerializerMemoryLeak.csproj", "{415B7E40-2ABC-424C-9B9D-FCA960927BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerNoMemoryLeak", "XmlSerializerNoMemoryLeak\XmlSerializerNoMemoryLeak.csproj", "{9ABE7C3C-C338-4941-8904-59110A639ECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415B7E40-2ABC-424C-9B9D-FCA960927BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415B7E40-2ABC-424C-9B9D-FCA960927BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415B7E40-2ABC-424C-9B9D-FCA960927BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415B7E40-2ABC-424C-9B9D-FCA960927BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABE7C3C-C338-4941-8904-59110A639ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABE7C3C-C338-4941-8904-59110A639ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABE7C3C-C338-4941-8904-59110A639ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABE7C3C-C338-4941-8904-59110A639ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9FE9B0B-1047-4CC7-BAFC-74C98ECD96A5}
+	EndGlobalSection
+EndGlobal
